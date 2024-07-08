@@ -1,0 +1,36 @@
+{
+  "name": "mailbaker",
+  "version": "1.0.0",
+  "description": "Launch a new MailBaker project quickly.",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 0"
+  },
+  "main": "index.mjs",
+  "bin": {
+    "mailbaker": "index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mailbaker/mailbaker.git"
+  },
+  "keywords": [
+    "mailbaker",
+    "posthtml",
+    "tailwindcss",
+    "responsive-email",
+    "email-framework",
+    "email-boilerplate",
+    "email-template"
+  ],
+  "author": "Šarūnas Ročevas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mailbaker/mailbaker/issues"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "degit": "^2.8.4",
+    "nypm": "^0.3.6",
+    "picocolors": "^1.0.0"
+  }
+}
